@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'notedblog',
-    ]
+    'members',
+    'ckeditor',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
